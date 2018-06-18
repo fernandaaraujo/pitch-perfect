@@ -137,7 +137,7 @@
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ypO-Op-7Wy" userLabel="Stop Button">
-                                <rect key="frame" x="128" y="488" width="64" height="64"/>
+                                <rect key="frame" x="128" y="484" width="64" height="64"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="64" id="BD6-nw-eew"/>
                                     <constraint firstAttribute="height" constant="64" id="bCa-dR-xXB"/>
@@ -150,10 +150,10 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="FPv-56-1Je" firstAttribute="bottom" secondItem="ypO-Op-7Wy" secondAttribute="bottom" constant="16" id="3rZ-xb-i0b"/>
+                            <constraint firstItem="FPv-56-1Je" firstAttribute="bottom" secondItem="ypO-Op-7Wy" secondAttribute="bottom" constant="20" id="3rZ-xb-i0b"/>
                             <constraint firstItem="7hh-C9-1dP" firstAttribute="top" secondItem="FPv-56-1Je" secondAttribute="top" id="ALA-K0-yGE"/>
                             <constraint firstItem="FPv-56-1Je" firstAttribute="trailing" secondItem="7hh-C9-1dP" secondAttribute="trailing" constant="16" id="Mfm-07-IvI"/>
-                            <constraint firstItem="ypO-Op-7Wy" firstAttribute="top" secondItem="7hh-C9-1dP" secondAttribute="bottom" constant="8" id="VHd-8z-w5h"/>
+                            <constraint firstItem="ypO-Op-7Wy" firstAttribute="top" secondItem="7hh-C9-1dP" secondAttribute="bottom" constant="4" id="VHd-8z-w5h"/>
                             <constraint firstItem="ypO-Op-7Wy" firstAttribute="centerX" secondItem="FPv-56-1Je" secondAttribute="centerX" id="gY3-6q-kt7"/>
                             <constraint firstItem="7hh-C9-1dP" firstAttribute="leading" secondItem="FPv-56-1Je" secondAttribute="leading" constant="16" id="o5u-02-RO5"/>
                         </constraints>
