@@ -19,14 +19,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yrb-AE-UJs" userLabel="Record">
-                                <rect key="frame" x="82.5" y="238.5" width="155" height="155"/>
+                                <rect key="frame" x="82.5" y="193.5" width="155" height="155"/>
                                 <state key="normal" image="Record"/>
                                 <connections>
                                     <action selector="recordAudio:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KsX-4E-XiZ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="URC-gU-Mb2" userLabel="Stop Recording">
-                                <rect key="frame" x="128" y="423" width="64" height="64"/>
+                                <rect key="frame" x="128" y="378" width="64" height="64"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="64" id="7vG-bR-ONl"/>
                                     <constraint firstAttribute="height" constant="64" id="udc-ai-mgg"/>
@@ -37,7 +37,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap to record..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X0o-rO-rdM">
-                                <rect key="frame" x="102" y="394" width="116" height="21"/>
+                                <rect key="frame" x="102" y="349" width="116" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -46,7 +46,7 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="URC-gU-Mb2" firstAttribute="top" secondItem="X0o-rO-rdM" secondAttribute="bottom" constant="8" id="8dP-KG-DHv"/>
-                            <constraint firstItem="Yrb-AE-UJs" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="AJt-vo-ci8"/>
+                            <constraint firstItem="Yrb-AE-UJs" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" constant="-45" id="AJt-vo-ci8"/>
                             <constraint firstItem="Yrb-AE-UJs" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="IHo-7m-P7r"/>
                             <constraint firstItem="X0o-rO-rdM" firstAttribute="top" secondItem="Yrb-AE-UJs" secondAttribute="bottom" constant="0.5" id="PuQ-NN-o3H"/>
                             <constraint firstItem="URC-gU-Mb2" firstAttribute="centerX" secondItem="X0o-rO-rdM" secondAttribute="centerX" id="R33-pw-hVP"/>
