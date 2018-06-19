@@ -40,7 +40,6 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
     }
     
     @IBAction func stopRecording(_ sender: Any) {
-        configuresUI(isRecordButtonEnable: true, recordingMessage: "Tap to record...")
         audioRecorder.stop()
         
         let audioSession = AVAudioSession.sharedInstance()
@@ -54,6 +53,8 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
     }
 
     func audioRecorderDidFinishRecording(_ recorder: AVAudioRecorder, successfully flag: Bool) {
+        configuresUI(isRecordButtonEnable: true, recordingMessage: "Tap to record...")
+
         if flag {
             performSegue(withIdentifier: "stopRecording", sender: audioRecorder.url)
         } else {
